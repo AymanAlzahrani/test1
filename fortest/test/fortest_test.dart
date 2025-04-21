@@ -1,0 +1,8 @@
+import 'package:fortest/fortest.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
